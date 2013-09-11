@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Viv's Page
 markdown: redcarpet
 pygments: true
+safe: true
+lsi: false
+

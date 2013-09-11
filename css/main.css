@@ -121,6 +121,12 @@ ul.posts span {
   border: 0;
 }
 
+.site .content_col .content{
+  padding-left:3em;
+}
+
+
+
 /*****************************************************************************/
 /*
 /* Posts

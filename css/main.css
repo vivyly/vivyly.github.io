@@ -168,24 +168,28 @@ ul.posts span {
 .creator_name, .creator_desc{
   font-weight:bold;
 }
-/*****************************************************************************/
-/*
-/* Resume 
-/*
-/*****************************************************************************/
 
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
 .home{
   padding: 0 2em;
 }
 
-.resume_section .section_header{
+.section_header{
   background-color:#FF9A2E;
   padding:.5em;
   font-weight:bold;
 }
 
-.resume_section .section_content{
+.section_content{
   padding:.5em;
+}
+
+.project_desc{
+  margin-bottom:1em;
 }
 
 .subsection_content{
@@ -198,11 +202,6 @@ ul.posts span {
   font-weight:bold;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
 
 /* standard */
 .post pre {

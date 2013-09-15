@@ -3,11 +3,27 @@ layout: default
 title: Your New Jekyll Site
 ---
 
+<h1>Home</h1>
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <div class="section">
+        <div class="section_header">Welcome!</div>
+        <div class="section_content">
+            <p>
+            Hi, welcome to Vivien Yang's page.
+            </p>
+            <p>
+            So far, you will find a sparse personal website 
+            that is still in progress. Before the year's end, there are plans to 
+            put up some interesting projects relating to a gif search engine, a
+            music inspiration tree, a fan casting interface, and possibly some 
+            experimentation on resizing pictures on the web.
+            </p>
+            <p>
+            I will also be putting up a gallery mostly consisting of figure drawing
+            sketches. They are definitely not safe for work, but if you're an artist
+            or if you're <em>mature</em> enough to not throw a fuss over nude art,
+            feel free to peruse.
+            </p>
+        </div>
+    </div>
 </div>

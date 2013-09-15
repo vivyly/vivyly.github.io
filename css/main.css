@@ -146,10 +146,14 @@ ul.posts span {
 }
 
 .site .hero-unit{
-  background-color: #E2E5EE;
+  background-color: #3D3331;
+  background: url('/img/viv_header.png') no-repeat;
+  background-position: 50% 100%;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  margin-top:-.5em;
+  margin-top:0em;
+  padding:1em;
+  height:10em;
 }
 
 .site .top_nav{
@@ -158,7 +162,7 @@ ul.posts span {
 
 .site .header_unit{
   margin-bottom:-1em;
-  margin-top:.5em;
+  margin-top:0em;
 }
 
 .site .navbar .nav .nav_active>a{
@@ -168,7 +172,24 @@ ul.posts span {
 .creator_name, .creator_desc{
   font-weight:bold;
 }
-
+.display_info{
+  position:relative;
+  display:-webkit-inline-flex;
+  width:100%;
+  clear:both;
+}
+.display_info div{
+  float:left;
+}
+.personal_info{
+  background:url('/img/personal_info.png') no-repeat;
+  height:2em;
+  width:30em;
+  margin:1em;
+}
+.section_text{
+  display:block;
+}
 /*****************************************************************************/
 /*
 /* Posts
@@ -189,7 +210,7 @@ ul.posts span {
 }
 
 .project_desc{
-  margin-bottom:1em;
+  margin:0 2em 1em;
 }
 
 .subsection_content{
@@ -233,4 +254,13 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+.blog_title{
+  float:left;
+}
+.blog_date{
+  float:right;
+}
+.clear{
+  clear:both;
 }

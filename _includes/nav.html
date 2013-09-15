@@ -1,12 +1,19 @@
-<div class="span2 navbar">
-    <div class="nav_content">
-        <div class="container">
+<div class="navbar top_nav">
+    <div class="navbar-inner">
+        <a class="brand" href="/">A Parliament of Owls</a>
             <ul class="nav">
-                <li class="active"><a class="extra" href="/">home</a></li>
-                <li><a class="extra" href="/resume.html">resume</a></li>
-                <li><a class="extra" href="/projects">projects</a></li>
-                <li><a class="extra" href="/blog">blog</a></li>
+                <li {% if page.path == "index.html" %}class="active nav_active"{% endif %}>
+                    <a class="extra" href="/">home</a>
+                </li>
+                <li {% if page.path == "resume.html" %}class="active nav_active"{% endif %}>
+                    <a class="extra" href="/resume.html">resume</a>
+                </li>
+                <li {% if page.path == "projects/index.html" %}class="active nav_active"{% endif %}>
+                    <a class="extra" href="/projects">projects</a>
+                </li>
+                <li {% if page.path == "blog/index.html" %}class="active nav_active"{% endif %}>
+                    <a class="extra" href="/blog">blog</a>
+                </li>
             </ul>
-        </div>
     </div>
 </div>

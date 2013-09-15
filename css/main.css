@@ -13,16 +13,24 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #3D3331;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; 
+}
 
-h1 { margin-bottom: 1em; }
+h1 { 
+  margin-bottom: 1em; 
+  background-color:#61A598;
+  padding-left:1em;
+  -webkit-border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+}
+
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -56,11 +64,11 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: medium;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+  min-width: 26em;
+  margin: 0 auto 2em;
+  line-height: 1em;
 }
 
 .site .header a {
@@ -97,14 +105,18 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 4px solid #E2E5EE;
   margin-top: 2em;
   overflow: hidden;
 }
 
 .site .footer .contact {
   float: left;
-  margin-right: 3em;
+  padding:2em;
+}
+.site .footer .contact>div{
+  float:left;
+  margin: 0 1em;
 }
 
 .site .footer .contact a {
@@ -121,11 +133,70 @@ ul.posts span {
   border: 0;
 }
 
-.site .content_col .content{
-  padding-left:3em;
+.site .content_col{
+  background-color:#E2E5EE;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px
+
 }
 
+.site .content_col .content{
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px
+}
 
+.site .hero-unit{
+  background-color: #E2E5EE;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  margin-top:-.5em;
+}
+
+.site .top_nav{
+  margin-bottom:0em;
+}
+
+.site .header_unit{
+  margin-bottom:-1em;
+  margin-top:.5em;
+}
+
+.site .navbar .nav .nav_active>a{
+  background-color: #DDD5A4;
+}
+
+.creator_name, .creator_desc{
+  font-weight:bold;
+}
+/*****************************************************************************/
+/*
+/* Resume 
+/*
+/*****************************************************************************/
+
+.home{
+  padding: 0 2em;
+}
+
+.resume_section .section_header{
+  background-color:#FF9A2E;
+  padding:.5em;
+  font-weight:bold;
+}
+
+.resume_section .section_content{
+  padding:.5em;
+}
+
+.subsection_content{
+ margin:.5em;
+ padding:.5em;
+}
+.subsection_title{
+  background-color:#D1CBCD;
+  padding:.5em;
+  font-weight:bold;
+}
 
 /*****************************************************************************/
 /*

@@ -1,0 +1,53 @@
+.hero-unit, .navbar, .footer{
+  display:none; 
+}
+
+body, h1, h2{
+  font-size:small;
+}
+
+.section_header{
+  background-color:#BBB;
+  padding:.5em;
+  margin:1em 0;
+}
+
+.resume_section{
+  margin:1em 0;
+}
+
+.section_content{
+  padding: 0 1em;
+}
+
+.subsection_title{
+  background-color:#DDD;
+  margin:1em 0;
+  padding:.5em;
+}
+
+.display_info{
+  position:relative;
+  display:-webkit-inline-flex;
+  display:-ms-inline-flexbox;
+  display:-moz-inline-box;
+  width:100%;
+  clear:both;
+}
+
+.display_name{
+  width: 10em;
+}
+.personal_info{
+  background:url('/img/personal_info.png') no-repeat;
+  height:2em;
+  width:30em;
+  margin:.5em;
+}
+
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}

@@ -175,8 +175,18 @@ ul.posts span {
 .display_info{
   position:relative;
   display:-webkit-inline-flex;
+  display:-ms-inline-flexbox;
+  display:-moz-inline-box;
   width:100%;
   clear:both;
+}
+
+.display_name{
+  width: 10em;
+}
+
+.section_text{
+  display:block;
 }
 .display_info div{
   float:left;

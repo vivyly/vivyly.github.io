@@ -51,8 +51,10 @@ body, h1, h2{
 .text-left{
   text-align:left;
   float:left;
+  height:10px;
 }
 .text-right{
   text-align:right;
   float:right;
+  height:10px;
 }

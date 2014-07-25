@@ -217,6 +217,7 @@ ul.posts span {
 
 .section_content{
   padding:.5em;
+  border-radius:2px;
 }
 
 .project_desc{
